@@ -1,0 +1,7 @@
+spring:
+  main:
+    banner-mode: off
+api:
+  mtgio:
+    cards:
+      uri: 'https://api.magicthegathering.io/v1/cards'

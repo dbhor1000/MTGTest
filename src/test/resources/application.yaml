@@ -1,0 +1,20 @@
+spring:
+  main:
+    banner-mode: 'off'
+  logging:
+    level:
+      org:
+        springframework='OFF'
+        root='OFF'
+api:
+  mtgio:
+    cards:
+      uri: https://api.magicthegathering.io/v1/cards
+#      - cache-duration='PT12H'
+test:
+  # Properties defining how the integration tests will be run.
+  integration:
+    enabled: 'true'
+
+    # 200 is chosen as a default base because each page is (currently) 100 cards long.
+    take-n: 200
